@@ -389,59 +389,66 @@ font-family: 'Cairo', sans-serif;
 /* end statistics */
 /* class footer*/
 footer{
-background-color: #414042;
-font-family: 'Cairo', sans-serif;
-color: #fff;
-text-align: right;
 padding-top: 40px;
 padding-bottom: 40px;
+background-color: #414042;
+color: #fff;
 }
-
 footer .footer-icon li {
 margin: 5px;
 display: inline-block;
 }
+footer .tags ol{
+margin: 0;
+padding: 0;
+}
+footer .tags ol li {
+background-color: rgb(41, 40, 40);
+display: inline;
+padding: 5px;
+}
+
 footer  ol {
 display: block;
 }
+
 footer ol li a {
-    color: #fff;
+color: #fff;
+padding: 10px;
 }
 footer ol li a:hover {
-    color: #EDBB00;
-    text-decoration: none;
+color: #EDBB00;
+text-decoration: none;
 }
 /* end css footer */
-
-
 
 
 /* responsive DESIGN */
 @media screen and (max-width: 400px) {
 
-    .nav-bar nav  img {
-        width: 50%;
-    }
+.nav-bar nav  img {
+width: 50%;
+}
 
 
-    .nav-bar ul {
-        text-align: center;
-        list-style: none;
+.nav-bar ul {
+text-align: center;
+list-style: none;
 
-    }
-    .nav-bar ul li {
-        display: block;
-        padding: 15px;
-        font-size: 28px;
-        font-family: 'Cairo', sans-serif;
-        color: #414042;
-        cursor: pointer;
-    }
+}
+.nav-bar ul li {
+display: block;
+padding: 15px;
+font-size: 28px;
+font-family: 'Cairo', sans-serif;
+color: #414042;
+cursor: pointer;
+}
 
-    .overlay{
-        border-bottom: 2px solid #fff;
+.overlay{
+border-bottom: 2px solid #fff;
 
-    }
+}
 }
 
 
