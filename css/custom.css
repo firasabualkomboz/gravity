@@ -14,231 +14,84 @@ font-family: 'Cairo', sans-serif;
 /*css slider animation with responsive */
 
 header .carousel-inner .item {
-    height: 100vh;
+height: 100vh;
 }
 
 .banner {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    /*opacity:.1;*/
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+height: 100vh;
 }
 .carousel-caption {
-    /*padding-bottom: 250px;*/
-    font-family: 'Cairo', sans-serif;
-    margin-bottom: 10%;
-
+margin-bottom: 10%;
 }
 .carousel-caption h2 {
-    font-size: 70px;
-    text-transform: uppercase;
-    font-weight: bold;
+font-size: 70px;
+font-weight: bold;
 }
 .carousel-caption h2 span {
-    color: #EDBB00;
+color: #EDBB00;
 }
 .carousel-caption a {
-    background: #EDBB00;
-    padding: 15px 35px;
-    display: inline-block;
-    margin-top: 15px;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 25px;
+background: #EDBB00;
+padding: 15px 35px;
+display: inline-block;
+margin-top: 15px;
+color: #fff;
+border-radius: 25px;
 }
 .carousel-control.right {
-    background-image: none;
+background-image: none;
 }
 .carousel-control.left {
-    background-image: none;
+background-image: none;
 }
 .carousel-indicators .active {
-    background-color: #EDBB00;
-    border-color: #EDBB00;
+background-color: #EDBB00;
+border-color: #EDBB00;
 }
 /*responsive css*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .carousel-caption {
-        padding-bottom: 350px;
-    }
-    .carousel-caption h2 {
-        font-size: 50px;
-    }
+.carousel-caption {
+padding-bottom: 350px;
+}
+.carousel-caption h2 {
+font-size: 50px;
+}
 }
 @media only screen and (max-width: 767px) {
 
-    .carousel-caption {
-        padding-bottom: 120px;
-    }
-    .carousel-caption h2 {
-        font-size: 25px;
-    }
-    .carousel-caption h3 {
-        font-size: 18px;
-    }
-    .carousel-caption a {
-        padding: 10px 25px;
-    }
+.carousel-caption {
+padding-bottom: 120px;
+}
+.carousel-caption h2 {
+font-size: 25px;
+}
+.carousel-caption h3 {
+font-size: 18px;
+}
+.carousel-caption a {
+padding: 10px 25px;
+}
 }
 
 /*end class slider */
 
-/* section two css #2 */
-.section-2{
-    background-color: #FFC20E;
-    width: 100%;
-    height: 400px;
-}
-.text-section2{
-    text-align: right;
-    font-family: 'Cairo', sans-serif;
-    color: #414042;
-    padding: 50px;
-    width: 60%;
-    float: right;
-}
-.text-section2 h2{
-    margin-top: 20px;
-    font-size: 50px;
-}
-.text-section2 p{
-    margin-top: 20px;
-    font-size: 40px;
-    color: #fff;
-}
-.text-section3 {
-    width: 40%;
-    float: left;
-    padding: 5%;
-}
-
-@media screen and ( max-width:400px)  {
-
-    .section-2{
-        width: 100%;
-        height: 600px;
-    }
-    .text-section2{
-        text-align: right;
-        font-family: 'Cairo', sans-serif;
-        color: #414042;
-        padding: 20px;
-        width: 60%;
-
-    }
-    .text-section2 h2{
-        margin-top: 40px;
-        font-size: 40px;
-    }
-    .text-section2 p{
-        margin-top: 10px;
-        font-size: 20px;
-        color: #fff;
-    }
-    .text-section3 {
-        margin-top: 100%;
-        width: 30%;
-        float: left;
-        padding: 5%;
-    }
-
-
-}
 
 /* about us */
-
-.about-top-class{
-    overflow: hidden;
-    margin: 2%;
+.about-us{
+padding-top: 40px;
+padding-bottom: 40px;
 }
-.about-top-class .about-img{
-    width: 40%;
-    float: left;
-    margin-top: 5%;
+.about-us .item{
+
 }
-
-.about-top-class .about-img img{
-    width: 100%;
-    margin: 2%;
-    animation: zoom 3s linear infinite;
-}
-
-.about-top-class .about{
-    width: 60%;
-    float: right;
-    text-align: right;
-    direction: rtl;
-    padding: 20px;
-}
-.about-top-class .about h3{
-    padding: 15px;
-    font-size: 28px;
-    font-family: 'Cairo', sans-serif;
-    color: #414042;
-    direction: rtl;
-    margin: 40px 0 20px 40px;
-    width: 20%;
-}
-
-.about-top-class .about  p {
-    font-size: 24px;
-    font-family: 'Cairo', sans-serif;
-    color: #414042;
-    width: 80%;
-    direction: rtl;
-}
-
-.about  .overlay{
-    width: 12%;
-}
-@media screen and ( max-width:400px)  {
-
-    .about-top-class{
-        overflow: hidden;
-        margin: 2%;
-    }
-    .about-top-class .about-img{
-        width: 100%;
-        float: left;
-        margin-top: 5%;
-    }
-
-    .about-top-class .about-img img{
-        width: 100%;
-        margin: 2%;
-    }
-
-    .about-top-class .about{
-        width: 100%;
-        float: right;
-        text-align: right;
-        direction: rtl;
-        padding: 20px;
-    }
-    .about-top-class .about h3{
-        padding: 15px;
-        font-size: 24px;
-        font-family: 'Cairo', sans-serif;
-        color: #414042;
-        direction: rtl;
-        margin: 40px 0 20px 40px;
-        width: 100%;
-    }
-
-    .about-top-class .about  p {
-        font-size: 18px;
-        font-family: 'Cairo', sans-serif;
-        color: #414042;
-        width: 100%;
-        direction: rtl;
-    }
-
-    .about  .overlay{
-        width: 100%;
-    }
+.about-us img{
+width: 50%;
+animation: zoom 3s linear infinite;
 
 }
 
@@ -279,113 +132,21 @@ padding-bottom: 40px;
     background-color: rgb(250, 250, 250);
 }
 
-
-
-
 /* END SERVICES  */
 
-
-
-
-/* */
-
-.about-me{
-    overflow: hidden;
-}
-
-.about-me .info{
-    float: left;
-    width: 100%;
-    text-align: right;
-    font-family: 'Cairo', sans-serif;
-
-}
-
-.about-me .info h2{
-    margin: 40px 0 20px 40px;
-}
-.about-me .info > p{
-    margin: 0 0 10px 40px;
-
-}
-
-.about-me .info  p{
-
-    line-height: 1.7;
-    color: #666;
-}
-
-.about-me .info .hobbies{
-    overflow: hidden;
-    margin: 50px 0 0 40px;
-}
-
-.about-me .info .hobbies .conntent{
-    float: left;
-    width: 50%;
-    min-height: 100px;
-    overflow: hidden;
-}
-
-.about-me .info .hobbies .conntent h3{ color: #555;}
-
-.about-me .info .hobbies .conntent .icon{
-    float: left;
-    width: 12%;
-    margin-right: 5%;
-}
-
-.about-me .info .hobbies .conntent .icon img{
-    max-width: 50px;
-    margin:    38px 0px 60px 30px;
-
-}
-
-.about-me .info .hobbies .conntent .text{
-    float: left;
-    width: 83%;
-}
-
-@media screen and ( max-width:400px)  {
-
-    .about-me .info .hobbies .conntent{
-        float: left;
-        width: 100%;
-        min-height: 100px;
-        overflow: hidden;
-    }
-
-    .about-me .info .hobbies .conntent h3{ color: #555;}
-
-    .about-me .info .hobbies .conntent .icon{
-        float: left;
-        width: 12%;
-        margin-right: 5%;
-    }
-
-    .about-me .info .hobbies .conntent .icon img{
-        max-width: 50px;
-        margin:  40px 0px 20px 0px;
-
-    }
-
-    .about-me .info .hobbies .conntent .text{
-        float: left;
-        width: 83%;
-    }
-}
-/* */
-/**/
-
 /* start statistics */
-.statistics{
-text-align: center;
-font-family: 'Cairo', sans-serif;
+.our-statistics{
+padding-top: 40px;
+padding-bottom: 40px;
 }
-.statistics .item img{
-    width: 100%;
+.our-statistics .item{
+background-color: #eee;
+border-radius: 8px;
+padding: 10px;
 }
-
+.our-statistics .item img {
+width: 25%;
+}
 /* end statistics */
 /* class footer*/
 footer{
