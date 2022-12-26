@@ -10,7 +10,6 @@ direction: rtl;
 font-family: 'Cairo', sans-serif;
 }
 
-
 /*css slider animation with responsive */
 
 header .carousel-inner .item {
@@ -183,36 +182,6 @@ text-decoration: none;
 }
 /* end css footer */
 
-
-/* responsive DESIGN */
-@media screen and (max-width: 400px) {
-
-.nav-bar nav  img {
-width: 50%;
-}
-
-
-.nav-bar ul {
-text-align: center;
-list-style: none;
-
-}
-.nav-bar ul li {
-display: block;
-padding: 15px;
-font-size: 28px;
-font-family: 'Cairo', sans-serif;
-color: #414042;
-cursor: pointer;
-}
-
-.overlay{
-border-bottom: 2px solid #fff;
-
-}
-}
-
-
 /* frameworks*/
 .clr{
     color: #FFC20E;
@@ -250,8 +219,3 @@ border-bottom: 2px solid #fff;
 .animated {
     opacity: 1;
 }
-
-/*
-css nav bar
-*/
-
